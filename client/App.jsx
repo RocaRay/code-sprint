@@ -9,6 +9,7 @@ const App = (props) => {
 
   return (
     <div>
+      Let's play.
       <Play />
     </div>
   )
