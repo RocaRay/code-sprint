@@ -3,13 +3,26 @@ body {
 }
 
 .pending {
-  color: grey;
+  color: lightgrey;
 }
 
 .correct {
-  color: green;
+  color: white;
+  background: green;
 }
 
 .incorrect {
   color: red;
+}
+
+.user-input {
+  /* width: 40rem;
+  height: 10rem; */
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+textarea {
+  resize: none;
 }
